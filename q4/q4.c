@@ -43,9 +43,7 @@ int main() {
             dlclose(h);
             continue;
         }
-
-        int ans = f(x, y);
-        printf("%d\n", ans);
+        printf("%d\n",f(x,y));
 
         dlclose(h);
     }
